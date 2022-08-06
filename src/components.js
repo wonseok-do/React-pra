@@ -17,8 +17,8 @@ export const Button = ({ input_ref, setText }) => {
     <button
       onClick={() => {
         console.log(input_ref.current.value);
-        setText(input_ref.current.value);
-        input_ref.current.value = "";
+        setText(input_ref);
+        // input_ref.current.value = "";
       }}
     >
       완성
